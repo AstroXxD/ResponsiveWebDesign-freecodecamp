@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(106, 77, 151);
+    margin: 0;
+    color: white;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#description {
+    margin-top: -20px;
+}
+
+form {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(52, 0, 100);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+.field1 input, .field1 select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    min-height: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #0a0a23;
+}
+
+#submit {
+    display: block;
+    width: 60%;
+    color: white;
+    background-color: rgb(178, 127, 255);
+    border-color: rgb(52, 0, 100);
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
