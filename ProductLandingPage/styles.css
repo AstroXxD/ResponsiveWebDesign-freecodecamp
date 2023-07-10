@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-img {
+    width: 150px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+#nav-bar {
+    padding-top: 10px;
+    position: fixed;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+#nav-bar ul {
+    float: right;
+    margin-right: 100px;
+}
+
+#nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#nav-bar ul li a:hover {
+    color: orange;
+}
+
+.embed-video {
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    padding: 150px 0;
+}
+
+#video {
+    width: 100%; 
+    height: 100%;
+}
+
+section {
+    margin: 0 100px;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#email {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+  
+#submit {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#features {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+  
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+  
+.feature i {
+    font-size: 50px;
+    color: orange;
+}
+  
+.feature h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}  
+  
+.feature p {
+    margin-top: 10px;
+    color: #666;
+}
+
+#pricing {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.pricing-card {
+    background-color: #fff3dc;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 50px;
+    justify-items: center;
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .price {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-card button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #header {
+      padding: 10px;
+    }
+  
+    #header-img {
+      width: 100px;
+    }
+  
+    #nav-bar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #nav-bar li {
+      margin: 5px 0;
+    }
+  
+    form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #email {
+      width: 100%;
+    }
+}
